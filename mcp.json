@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "h1b": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["h1b-mcp@latest"],
+      "env": {
+        "UV_HTTP_TIMEOUT": "300"
+      }
+    }
+  }
+}
